@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r path/to/requirements.txt  # Update path if necessary
+          pip install -r requirements.txt  # Corrected path
 
       - name: Run unit tests
         env:
